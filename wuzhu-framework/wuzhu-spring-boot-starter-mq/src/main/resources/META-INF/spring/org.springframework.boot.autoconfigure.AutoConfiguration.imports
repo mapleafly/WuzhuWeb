@@ -1,0 +1,3 @@
+org.lifxue.wuzhu.framework.mq.redis.config.WuzhuRedisMQProducerAutoConfiguration
+org.lifxue.wuzhu.framework.mq.redis.config.WuzhuRedisMQConsumerAutoConfiguration
+org.lifxue.wuzhu.framework.mq.rabbitmq.config.WuzhuRabbitMQAutoConfiguration

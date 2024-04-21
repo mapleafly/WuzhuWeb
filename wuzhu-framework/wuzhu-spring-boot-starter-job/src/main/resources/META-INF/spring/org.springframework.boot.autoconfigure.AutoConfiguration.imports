@@ -1,0 +1,2 @@
+org.lifxue.wuzhu.framework.quartz.config.WuzhuQuartzAutoConfiguration
+org.lifxue.wuzhu.framework.quartz.config.WuzhuAsyncAutoConfiguration

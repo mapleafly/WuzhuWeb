@@ -1,0 +1,3 @@
+org.lifxue.wuzhu.framework.idempotent.config.WuzhuIdempotentConfiguration
+org.lifxue.wuzhu.framework.lock4j.config.WuzhuLock4jConfiguration
+org.lifxue.wuzhu.framework.ratelimiter.config.WuzhuRateLimiterConfiguration

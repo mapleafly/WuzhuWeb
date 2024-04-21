@@ -1,0 +1,2 @@
+org.lifxue.wuzhu.framework.datapermission.config.WuzhuDataPermissionAutoConfiguration
+org.lifxue.wuzhu.framework.datapermission.config.WuzhuDeptDataPermissionAutoConfiguration

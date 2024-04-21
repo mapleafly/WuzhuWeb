@@ -1,0 +1,3 @@
+org.lifxue.wuzhu.framework.security.config.WuzhuSecurityAutoConfiguration
+org.lifxue.wuzhu.framework.security.config.WuzhuWebSecurityConfigurerAdapter
+org.lifxue.wuzhu.framework.operatelog.config.WuzhuOperateLogConfiguration

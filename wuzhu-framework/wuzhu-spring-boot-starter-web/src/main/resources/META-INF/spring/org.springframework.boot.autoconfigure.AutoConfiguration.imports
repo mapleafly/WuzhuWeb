@@ -1,0 +1,7 @@
+org.lifxue.wuzhu.framework.apilog.config.WuzhuApiLogAutoConfiguration
+org.lifxue.wuzhu.framework.jackson.config.WuzhuJacksonAutoConfiguration
+org.lifxue.wuzhu.framework.swagger.config.WuzhuSwaggerAutoConfiguration
+org.lifxue.wuzhu.framework.web.config.WuzhuWebAutoConfiguration
+org.lifxue.wuzhu.framework.xss.config.WuzhuXssAutoConfiguration
+org.lifxue.wuzhu.framework.banner.config.WuzhuBannerAutoConfiguration
+org.lifxue.wuzhu.framework.errorcode.config.WuzhuErrorCodeAutoConfiguration

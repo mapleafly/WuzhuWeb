@@ -1,0 +1,3 @@
+org.lifxue.wuzhu.framework.datasource.config.WuzhuDataSourceAutoConfiguration
+org.lifxue.wuzhu.framework.mybatis.config.WuzhuMybatisAutoConfiguration
+org.lifxue.wuzhu.framework.translate.config.WuzhuTranslateAutoConfiguration

@@ -1,0 +1,28 @@
+package org.lifxue.wuzhu.module.infra.dal.mysql.demo;
+
+import java.util.*;
+
+import org.lifxue.wuzhu.framework.common.pojo.PageResult;
+import org.lifxue.wuzhu.framework.common.pojo.PageParam;
+import org.lifxue.wuzhu.framework.mybatis.core.query.LambdaQueryWrapperX;
+import org.lifxue.wuzhu.framework.mybatis.core.mapper.BaseMapperX;
+import org.lifxue.wuzhu.module.infra.dal.dataobject.demo.InfraStudentContactDO;
+import org.apache.ibatis.annotations.Mapper;
+
+/**
+ * 学生联系人 Mapper
+ *
+ * @author 芋道源码
+ */
+@Mapper
+public interface InfraStudentContactMapper extends BaseMapperX<InfraStudentContactDO> {
+
+    default List<InfraStudentContactDO> selectListByStudentId(Long studentId) {
+        return selectList(InfraStudentContactDO::getStudentId, studentId);
+    }
+
+    default int deleteByStudentId(Long studentId) {
+        return delete(InfraStudentContactDO::getStudentId, studentId);
+    }
+
+}
