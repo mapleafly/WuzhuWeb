@@ -9,12 +9,15 @@ import org.lifxue.wuzhu.framework.web.core.handler.GlobalResponseBodyHandler;
 import org.lifxue.wuzhu.framework.web.core.util.WebFrameworkUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
+import org.springframework.boot.autoconfigure.AutoConfigureOrder;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
+import org.springframework.core.Ordered;
 import org.springframework.util.AntPathMatcher;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
@@ -29,6 +32,7 @@ import jakarta.servlet.Filter;
 
 @AutoConfiguration
 @EnableConfigurationProperties(WebProperties.class)
+@AutoConfigureOrder(Ordered.HIGHEST_PRECEDENCE)
 public class WuzhuWebAutoConfiguration implements WebMvcConfigurer {
 
     @Resource
@@ -122,6 +126,7 @@ public class WuzhuWebAutoConfiguration implements WebMvcConfigurer {
      * @param restTemplateBuilder {@link RestTemplateAutoConfiguration#restTemplateBuilder}
      */
     @Bean
+    @ConditionalOnMissingBean(RestTemplate.class)
     public RestTemplate restTemplate(RestTemplateBuilder restTemplateBuilder) {
         return restTemplateBuilder.build();
     }
