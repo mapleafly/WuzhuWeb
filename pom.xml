@@ -15,7 +15,7 @@
         <!-- 各种 module 拓展 -->
         <module>wuzhu-module-system</module>
         <module>wuzhu-module-infra</module>
-<!--        <module>wuzhu-module-member</module>-->
+        <module>wuzhu-module-member</module>
 <!--        <module>wuzhu-module-bpm</module>-->
 <!--        <module>wuzhu-module-report</module>-->
 <!--        <module>wuzhu-module-mp</module>-->
