@@ -16,7 +16,8 @@
         <module>wuzhu-module-system</module>
         <module>wuzhu-module-infra</module>
         <module>wuzhu-module-member</module>
-<!--        <module>wuzhu-module-bpm</module>-->
+        <module>wuzhu-module-crypto</module>
+        <!--        <module>wuzhu-module-bpm</module>-->
 <!--        <module>wuzhu-module-report</module>-->
 <!--        <module>wuzhu-module-mp</module>-->
 <!--        <module>wuzhu-module-pay</module>-->

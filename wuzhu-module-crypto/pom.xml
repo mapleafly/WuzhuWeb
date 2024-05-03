@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.lifxue.wuzhu</groupId>
+        <artifactId>wuzhu</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modules>
+        <module>wuzhu-module-crypto-api</module>
+        <module>wuzhu-module-crypto-biz</module>
+    </modules>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>wuzhu-module-crypto</artifactId>
+    <packaging>pom</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>
+        crypto 模块，虚拟货币模块
+    </description>
+
+</project>

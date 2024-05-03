@@ -180,7 +180,7 @@ logging:
     org.lifxue.wuzhu.module.crm.dal.mysql: debug
     org.lifxue.wuzhu.module.erp.dal.mysql: debug
     org.springframework.context.support.PostProcessorRegistrationDelegate: ERROR # TODO 芋艿：先禁用，Spring Boot 3.X 存在部分错误的 WARN 提示
-
+    org.lifxue.wuzhu.module.crypto.dal.mysql: debug
 debug: false
 
 --- #################### 微信公众号、小程序相关配置 ####################

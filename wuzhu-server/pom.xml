@@ -38,7 +38,11 @@
             <artifactId>wuzhu-module-member-biz</artifactId>
             <version>${revision}</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.lifxue.wuzhu</groupId>
+            <artifactId>wuzhu-module-crypto-biz</artifactId>
+            <version>${revision}</version>
+        </dependency>
         <!-- 数据报表。默认注释，保证编译速度 -->
 <!--        <dependency>-->
 <!--            <groupId>org.lifxue.wuzhu</groupId>-->
