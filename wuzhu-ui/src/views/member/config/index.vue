@@ -1,5 +1,4 @@
 <template>
-  <doc-alert title="会员手册（功能开启）" url="https://doc.iocoder.cn/member/build/" />
 
   <ContentWrap>
     <el-form
